@@ -1,6 +1,6 @@
 {
   "name": "@digitalcloud.no/cli-pretty-logger",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple colored logger for CLI applications.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,7 +12,13 @@
     "directory": "packages/cli-pretty-logger"
   },
   "homepage": "https://github.com/syedrazaalino/npm-packages#readme",
-  "keywords": ["cli", "logger", "color", "console", "typescript"],
+  "keywords": [
+    "cli",
+    "logger",
+    "color",
+    "console",
+    "typescript"
+  ],
   "publishConfig": {
     "access": "public"
   },

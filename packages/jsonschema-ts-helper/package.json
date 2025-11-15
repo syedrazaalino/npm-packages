@@ -1,6 +1,6 @@
 {
   "name": "@digitalcloud.no/jsonschema-ts-helper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate TypeScript types from JSON Schema.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,7 +15,13 @@
     "directory": "packages/jsonschema-ts-helper"
   },
   "homepage": "https://github.com/syedrazaalino/npm-packages#readme",
-  "keywords": ["json-schema", "typescript", "codegen", "cli", "types"],
+  "keywords": [
+    "json-schema",
+    "typescript",
+    "codegen",
+    "cli",
+    "types"
+  ],
   "publishConfig": {
     "access": "public"
   },

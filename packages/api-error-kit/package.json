@@ -1,6 +1,6 @@
 {
   "name": "@digitalcloud.no/api-error-kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Standardized API error shape and helpers for backend and frontend.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,7 +12,13 @@
     "directory": "packages/api-error-kit"
   },
   "homepage": "https://github.com/syedrazaalino/npm-packages#readme",
-  "keywords": ["api", "error", "express", "middleware", "typescript"],
+  "keywords": [
+    "api",
+    "error",
+    "express",
+    "middleware",
+    "typescript"
+  ],
   "publishConfig": {
     "access": "public"
   },

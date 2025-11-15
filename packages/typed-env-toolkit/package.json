@@ -1,6 +1,6 @@
 {
   "name": "@digitalcloud.no/typed-env-toolkit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Type-safe environment variable loader with runtime validation for Node.js and TypeScript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,7 +12,13 @@
     "directory": "packages/typed-env-toolkit"
   },
   "homepage": "https://github.com/syedrazaalino/npm-packages#readme",
-  "keywords": ["env", "environment", "validation", "typescript", "config"],
+  "keywords": [
+    "env",
+    "environment",
+    "validation",
+    "typescript",
+    "config"
+  ],
   "publishConfig": {
     "access": "public"
   },
