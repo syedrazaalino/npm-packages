@@ -8,10 +8,10 @@
   "author": "digitalcloud.no",
   "repository": {
     "type": "git",
-    "url": "https://github.com/digitalcloud-no/npm-packages.git",
+    "url": "https://github.com/syedrazaalino/npm-packages.git",
     "directory": "packages/api-error-kit"
   },
-  "homepage": "https://github.com/digitalcloud-no/npm-packages#readme",
+  "homepage": "https://github.com/syedrazaalino/npm-packages#readme",
   "keywords": ["api", "error", "express", "middleware", "typescript"],
   "publishConfig": {
     "access": "public"

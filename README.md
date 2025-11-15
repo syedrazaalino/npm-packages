@@ -1,12 +1,11 @@
 # NPM Packages Monorepo
 
-This repository contains multiple TypeScript-based npm packages.
+A collection of 7 production-ready TypeScript utility packages published under `@digitalcloud.no`.
 
-- `typed-env-toolkit`: Type-safe environment variable loader with runtime validation.
-- `smart-fetch-client`: Lightweight fetch-based HTTP client with retries and timeouts.
-- `api-error-kit`: Standardized API error shape and helpers for backend and frontend.
+## 📦 Packages
 
-Install dependencies:
+### [@digitalcloud.no/typed-env-toolkit](./packages/typed-env-toolkit)
+Type-safe environment variable loader with runtime validation for Node.js and TypeScript.
 
 ```bash
 npm install
