@@ -21,6 +21,7 @@
     "test": "vitest"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ]
 }
