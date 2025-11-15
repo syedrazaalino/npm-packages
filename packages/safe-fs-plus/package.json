@@ -1,0 +1,26 @@
+{
+  "name": "@digitalcloud.no/safe-fs-plus",
+  "version": "0.1.0",
+  "description": "Safe, promise-based filesystem utilities for Node.js.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "author": "digitalcloud.no",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalcloud-no/npm-packages.git",
+    "directory": "packages/safe-fs-plus"
+  },
+  "homepage": "https://github.com/digitalcloud-no/npm-packages#readme",
+  "keywords": ["fs", "filesystem", "copy", "remove", "safe", "typescript"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "rimraf dist; tsc -p tsconfig.json",
+    "test": "vitest"
+  },
+  "files": [
+    "dist"
+  ]
+}

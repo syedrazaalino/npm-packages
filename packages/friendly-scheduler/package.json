@@ -1,0 +1,26 @@
+{
+  "name": "@digitalcloud.no/friendly-scheduler",
+  "version": "0.1.0",
+  "description": "Friendly in-process interval scheduler for Node.js and TypeScript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "author": "digitalcloud.no",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalcloud-no/npm-packages.git",
+    "directory": "packages/friendly-scheduler"
+  },
+  "homepage": "https://github.com/digitalcloud-no/npm-packages#readme",
+  "keywords": ["scheduler", "cron", "interval", "job", "typescript"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "rimraf dist; tsc -p tsconfig.json",
+    "test": "vitest"
+  },
+  "files": [
+    "dist"
+  ]
+}
